@@ -24,6 +24,7 @@
 		65B9926D265C07CC007641F9 /* ArticlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9926C265C07CC007641F9 /* ArticlesRouter.swift */; };
 		65B99271265C0848007641F9 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B99270265C0848007641F9 /* ArticleDetailViewController.swift */; };
 		65B99273265C0BEE007641F9 /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B99272265C0BEE007641F9 /* CreatorViewController.swift */; };
+		65B9927B265C13C0007641F9 /* ArticlesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9927A265C13C0007641F9 /* ArticlesPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		65B9926C265C07CC007641F9 /* ArticlesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRouter.swift; sourceTree = "<group>"; };
 		65B99270265C0848007641F9 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		65B99272265C0BEE007641F9 /* CreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorViewController.swift; sourceTree = "<group>"; };
+		65B9927A265C13C0007641F9 /* ArticlesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				65B99247265C0248007641F9 /* ViperDemoTests.swift */,
 				65B99249265C0248007641F9 /* Info.plist */,
+				65B9927A265C13C0007641F9 /* ArticlesPresenterTests.swift */,
 			);
 			path = ViperDemoTests;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B99248265C0248007641F9 /* ViperDemoTests.swift in Sources */,
+				65B9927B265C13C0007641F9 /* ArticlesPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
