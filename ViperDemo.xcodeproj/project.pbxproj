@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657989C4265FC0EE0037B2E6 /* HomeModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989C3265FC0EE0037B2E6 /* HomeModuleViewController.swift */; };
+		657989C6265FC1650037B2E6 /* HomeModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989C5265FC1650037B2E6 /* HomeModulePresenter.swift */; };
+		657989C8265FC17F0037B2E6 /* HomeModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989C7265FC17F0037B2E6 /* HomeModuleInteractor.swift */; };
+		657989CA265FC18C0037B2E6 /* HomeModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989C9265FC18C0037B2E6 /* HomeModuleRouter.swift */; };
+		657989CC265FC6A00037B2E6 /* HomeModuleInteracting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989CB265FC6A00037B2E6 /* HomeModuleInteracting.swift */; };
+		657989D0265FC6B10037B2E6 /* HomeModuleRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989CF265FC6B10037B2E6 /* HomeModuleRouting.swift */; };
+		657989D4265FC6C60037B2E6 /* HomeModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989D3265FC6C60037B2E6 /* HomeModuleView.swift */; };
+		657989D7265FC75E0037B2E6 /* HomeModulePresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989D6265FC75E0037B2E6 /* HomeModulePresenting.swift */; };
+		657989D9265FC87B0037B2E6 /* HomeModuleBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989D8265FC87B0037B2E6 /* HomeModuleBuilding.swift */; };
+		657989DB265FC8900037B2E6 /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989DA265FC8900037B2E6 /* HomeModuleBuilder.swift */; };
+		657989DD265FC9B10037B2E6 /* ArticleViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989DC265FC9B10037B2E6 /* ArticleViewModelMapper.swift */; };
+		657989DF265FC9CD0037B2E6 /* ArticleViewModelMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657989DE265FC9CD0037B2E6 /* ArticleViewModelMapping.swift */; };
 		65B9922E265C0246007641F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9922D265C0246007641F9 /* AppDelegate.swift */; };
 		65B99232265C0246007641F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B99231265C0246007641F9 /* ViewController.swift */; };
 		65B99235265C0246007641F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B99233265C0246007641F9 /* Main.storyboard */; };
@@ -45,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657989C3265FC0EE0037B2E6 /* HomeModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleViewController.swift; sourceTree = "<group>"; };
+		657989C5265FC1650037B2E6 /* HomeModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModulePresenter.swift; sourceTree = "<group>"; };
+		657989C7265FC17F0037B2E6 /* HomeModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleInteractor.swift; sourceTree = "<group>"; };
+		657989C9265FC18C0037B2E6 /* HomeModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleRouter.swift; sourceTree = "<group>"; };
+		657989CB265FC6A00037B2E6 /* HomeModuleInteracting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleInteracting.swift; sourceTree = "<group>"; };
+		657989CF265FC6B10037B2E6 /* HomeModuleRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleRouting.swift; sourceTree = "<group>"; };
+		657989D3265FC6C60037B2E6 /* HomeModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleView.swift; sourceTree = "<group>"; };
+		657989D6265FC75E0037B2E6 /* HomeModulePresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModulePresenting.swift; sourceTree = "<group>"; };
+		657989D8265FC87B0037B2E6 /* HomeModuleBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilding.swift; sourceTree = "<group>"; };
+		657989DA265FC8900037B2E6 /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
+		657989DC265FC9B10037B2E6 /* ArticleViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelMapper.swift; sourceTree = "<group>"; };
+		657989DE265FC9CD0037B2E6 /* ArticleViewModelMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelMapping.swift; sourceTree = "<group>"; };
 		65B9922A265C0246007641F9 /* ViperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B9922D265C0246007641F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B99231265C0246007641F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +120,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657989D5265FC6E30037B2E6 /* HomeExample */ = {
+			isa = PBXGroup;
+			children = (
+				657989DA265FC8900037B2E6 /* HomeModuleBuilder.swift */,
+				657989D8265FC87B0037B2E6 /* HomeModuleBuilding.swift */,
+				657989E0265FCD160037B2E6 /* Interactor */,
+				657989E3265FCD270037B2E6 /* Presenter */,
+				657989E1265FCD1E0037B2E6 /* Router */,
+				657989E2265FCD230037B2E6 /* View */,
+			);
+			path = HomeExample;
+			sourceTree = "<group>";
+		};
+		657989E0265FCD160037B2E6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				657989CB265FC6A00037B2E6 /* HomeModuleInteracting.swift */,
+				657989C7265FC17F0037B2E6 /* HomeModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		657989E1265FCD1E0037B2E6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				657989C9265FC18C0037B2E6 /* HomeModuleRouter.swift */,
+				657989CF265FC6B10037B2E6 /* HomeModuleRouting.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		657989E2265FCD230037B2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				657989D3265FC6C60037B2E6 /* HomeModuleView.swift */,
+				657989C3265FC0EE0037B2E6 /* HomeModuleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		657989E3265FCD270037B2E6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				657989C5265FC1650037B2E6 /* HomeModulePresenter.swift */,
+				657989D6265FC75E0037B2E6 /* HomeModulePresenting.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		65B99221265C0246007641F9 = {
 			isa = PBXGroup;
 			children = (
@@ -122,15 +195,16 @@
 				65B9923E265C0248007641F9 /* Info.plist */,
 				65B9922D265C0246007641F9 /* AppDelegate.swift */,
 				65B99231265C0246007641F9 /* ViewController.swift */,
-				65B99233265C0246007641F9 /* Main.storyboard */,
-				65B9923B265C0248007641F9 /* LaunchScreen.storyboard */,
 				65B99239265C0248007641F9 /* Assets.xcassets */,
-				65B99279265C0D81007641F9 /* View */,
-				65B99277265C0D73007641F9 /* Interactor */,
-				65B99274265C0D5A007641F9 /* Presenter */,
 				65B99278265C0D7A007641F9 /* Entity */,
+				657989D5265FC6E30037B2E6 /* HomeExample */,
+				65B99277265C0D73007641F9 /* Interactor */,
+				65B9923B265C0248007641F9 /* LaunchScreen.storyboard */,
+				65B99233265C0246007641F9 /* Main.storyboard */,
+				65B99274265C0D5A007641F9 /* Presenter */,
 				65B99275265C0D60007641F9 /* Router */,
 				65B99276265C0D6A007641F9 /* Service */,
+				65B99279265C0D81007641F9 /* View */,
 				65B99236265C0246007641F9 /* ViperDemo.xcdatamodeld */,
 			);
 			path = ViperDemo;
@@ -192,6 +266,8 @@
 			children = (
 				65B99262265C03FD007641F9 /* ArticleResponse.swift */,
 				65B99264265C0491007641F9 /* ArticleViewModel.swift */,
+				657989DC265FC9B10037B2E6 /* ArticleViewModelMapper.swift */,
+				657989DE265FC9CD0037B2E6 /* ArticleViewModelMapping.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -337,17 +413,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B99267265C04F4007641F9 /* ArticlesInteractor.swift in Sources */,
+				657989CA265FC18C0037B2E6 /* HomeModuleRouter.swift in Sources */,
 				65B99273265C0BEE007641F9 /* CreatorViewController.swift in Sources */,
 				65B99232265C0246007641F9 /* ViewController.swift in Sources */,
+				657989DF265FC9CD0037B2E6 /* ArticleViewModelMapping.swift in Sources */,
 				65B99238265C0246007641F9 /* ViperDemo.xcdatamodeld in Sources */,
+				657989CC265FC6A00037B2E6 /* HomeModuleInteracting.swift in Sources */,
 				65B9922E265C0246007641F9 /* AppDelegate.swift in Sources */,
+				657989D7265FC75E0037B2E6 /* HomeModulePresenting.swift in Sources */,
+				657989DD265FC9B10037B2E6 /* ArticleViewModelMapper.swift in Sources */,
+				657989DB265FC8900037B2E6 /* HomeModuleBuilder.swift in Sources */,
 				65B9926B265C0769007641F9 /* ArticlesPresenter.swift in Sources */,
+				657989D4265FC6C60037B2E6 /* HomeModuleView.swift in Sources */,
+				657989D0265FC6B10037B2E6 /* HomeModuleRouting.swift in Sources */,
 				65B99265265C0491007641F9 /* ArticleViewModel.swift in Sources */,
 				65B99261265C0254007641F9 /* MainViewController.swift in Sources */,
+				657989D9265FC87B0037B2E6 /* HomeModuleBuilding.swift in Sources */,
 				65B9926D265C07CC007641F9 /* ArticlesRouter.swift in Sources */,
 				65B99269265C0551007641F9 /* APIService.swift in Sources */,
+				657989C8265FC17F0037B2E6 /* HomeModuleInteractor.swift in Sources */,
 				65B99263265C03FD007641F9 /* ArticleResponse.swift in Sources */,
 				65B99271265C0848007641F9 /* ArticleDetailViewController.swift in Sources */,
+				657989C4265FC0EE0037B2E6 /* HomeModuleViewController.swift in Sources */,
+				657989C6265FC1650037B2E6 /* HomeModulePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
